@@ -1,28 +1,16 @@
-# debug-npm-version
+# simple-npm-version
 
-This package exports four variables:
+This package export at named variable called VERSION of type String
 
- * VERSION
- * MAJOR_VERSION
- * MINOR_VERSION
- * PATCH_VERSION
-
-. These variables always match the current version of this package and are always strings:
-
+This variable always matches the current version of this package.
 
 ```javascript
 import {
   VERSION
-  MAJOR_VERSION,
-  MINOR_VERSION,
-  PATCH_VERSION,
-} from 'debug-npm-version'
+} from 'simple-debug-version'
 
-// Assuming version 1.2.0
-expect(VERSION).to.equal("1.2.0")
-expect(MAJOR_VERSION).to.equal("1")
-expect(MINOR_VERSION).to.equal("2")
-expect(PATCH_VERSION).to.equal("0")
+// Assuming you installed version 1.0.0
+expect(VERSION).to.equal("1.0.0")
 ```
 
 # What is the purpose of this
