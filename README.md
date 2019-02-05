@@ -1,6 +1,6 @@
-# simple-npm-version
+# simple-debug-version
 
-This package export at named variable called VERSION of type String
+This package exports a named variable called VERSION of type String
 
 This variable always matches the current version of this package.
 
@@ -11,6 +11,9 @@ import {
 
 // Assuming you installed version 1.0.0
 expect(VERSION).to.equal("1.0.0")
+
+// ... Or assuming you installed version 2.0.0
+expect(VERSION).to.equal("2.0.0")
 ```
 
 # What is the purpose of this
