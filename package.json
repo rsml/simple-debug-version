@@ -1,0 +1,20 @@
+{
+  "name": "debug-version",
+  "version": "0.0.1",
+  "description": "Exports the version of this npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "debug",
+    "npm",
+    "version"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rsml'debug-version.git"
+  },
+  "author": "Ross Miller",
+  "license": "MIT"
+}
